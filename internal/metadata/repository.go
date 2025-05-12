@@ -10,8 +10,8 @@ import (
 	"github.com/goccy/go-zetasqlite"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 
-	internaltypes "github.com/goccy/bigquery-emulator/internal/types"
-	"github.com/goccy/bigquery-emulator/types"
+	internaltypes "github.com/eduhenke/bigquery-emulator/internal/types"
+	"github.com/eduhenke/bigquery-emulator/types"
 )
 
 var schemata = []string{

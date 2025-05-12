@@ -9,8 +9,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/goccy/bigquery-emulator/server"
-	"github.com/goccy/bigquery-emulator/types"
+	"github.com/eduhenke/bigquery-emulator/server"
+	"github.com/eduhenke/bigquery-emulator/types"
 	"github.com/jessevdk/go-flags"
 )
 

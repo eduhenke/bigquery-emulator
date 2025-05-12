@@ -26,12 +26,12 @@ import (
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
-
-	"github.com/goccy/bigquery-emulator/internal/connection"
-	"github.com/goccy/bigquery-emulator/internal/logger"
-	"github.com/goccy/bigquery-emulator/internal/metadata"
-	internaltypes "github.com/goccy/bigquery-emulator/internal/types"
-	"github.com/goccy/bigquery-emulator/types"
+	
+	"github.com/eduhenke/bigquery-emulator/internal/connection"
+	"github.com/eduhenke/bigquery-emulator/internal/logger"
+	"github.com/eduhenke/bigquery-emulator/internal/metadata"
+	internaltypes "github.com/eduhenke/bigquery-emulator/internal/types"
+	"github.com/eduhenke/bigquery-emulator/types"
 	"github.com/parquet-go/parquet-go"
 )
 
